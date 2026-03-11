@@ -1,4 +1,4 @@
-// Exercício 01
+// Exercício 01: Calculadora de Velocidade Média
 import java.util.Scanner;
 
 public class Ex01{
@@ -19,7 +19,7 @@ public class Ex01{
 	}
 }
 
-// Exercício 02
+// Exercício 02: Conversor de Moedas para Viagens
 import java.util.Scanner;
 
 public class Ex02{
@@ -40,7 +40,7 @@ public class Ex02{
 	}
 }
 
-// Exercício 03
+// Exercício 03: Volume de um Silo Cilíndrico
 import java.util.Scanner;
 
 public class Ex03{
@@ -61,7 +61,7 @@ public class Ex03{
 	}
 }
 
-// Exercício 04
+// Exercício 04: Consumo Energético Residencial
 import java.util.Scanner;
 
 public class Ex04{
@@ -88,7 +88,7 @@ public class Ex04{
 	}
 }
 
-// Exercício 05
+// Exercício 05: Cálculo de Custo de Pavimentação
 import java.util.Scanner;
 
 public class Ex05{
