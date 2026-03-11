@@ -112,7 +112,7 @@ public class Ex05{
 	}
 }
 
-//Exercício 06
+//Exercício 06: Teorema de Pitágoras Aplicado
 import java.util.Scanner;
 
 public class Ex06{
@@ -122,8 +122,16 @@ public class Ex06{
         Scanner leitor = new Scanner(System.in);
         
         System.out.println("Qual o valor do cateto oposto?");
-        int catetoOposto = leitor.nextInt();
+        double catetoOposto = leitor.nextDouble();
         
+        System.out.println("Qual o valor do cateto adjacente?");
+        double catetoAdjacente = leitor.nextDouble();
+        
+        //fórmula da hipotenusa 
+        double hipotenusa = Math.sqrt(Math.pow(catetoOposto, 2) + Math.pow(catetoAdjacente, 2));
+    
+        //%.2f%n é utilizado para colocar ponto flutuante, o n na formula coloca o ponteira na proxima linha e o 2 indica o número de casas decimais 
+        System.out.printf("Valor da hipotenusa: %.2f%n", hipotenusa);
         
         
     }
