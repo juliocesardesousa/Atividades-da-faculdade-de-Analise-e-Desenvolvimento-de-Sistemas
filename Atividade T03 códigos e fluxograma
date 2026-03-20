@@ -1,0 +1,131 @@
+import java.util.Scanner;
+
+public class Ex01
+{
+	public static void main(String[] args) {
+	   
+		Scanner scanner = new Scanner (System.in);
+		
+		System.out.println("Qual o seu primeiro nome? ");
+		String nome = scanner.next();
+		
+		System.out.println("Qual a sua altura? ");
+		double altura = scanner.nextDouble();
+		
+		System.out.println("Qual a sua idade? ");
+		int idade = scanner.nextInt();
+		
+		System.out.println("Olá " + nome + ", você tem " + idade + " anos e sua altura é de " + altura + " metros");
+		scanner.close();
+	}
+}
+import java.util.Scanner;
+
+public class Ex02{
+    public static void main (String [] args){
+        
+        Scanner scanner =  new Scanner (System.in);
+        
+        System.out.println("Qual o valor do lado do quadrado? ");
+        double lado = scanner.nextDouble();
+        
+        System.out.println("A área do quadrado: " + Math.pow(lado,2));
+    }
+}
+import java.util.Scanner;
+
+public class Ex03{
+    public static void main (String [] args){
+        
+        Scanner scanner = new Scanner (System.in);
+        
+        System.out.println("Digite o valor da sua primeira nota");
+        double notaUm = scanner.nextDouble();
+        
+        System.out.println("digite o valor da sua segunda nota");
+        double notaDois = scanner.nextDouble();
+        
+        System.out.println("Digite o valor da sua terceira nota");
+        double notaTres = scanner.nextDouble();
+        
+        double media = (notaUm + notaDois + notaTres)/3;
+        
+        System.out.printf("Sua média é de: %.2f%n", media);
+        
+    }
+}
+
+import java.util.Scanner;
+
+public class Ex04{
+    public static void main (String [] args){
+        
+        Scanner scanner = new Scanner (System.in);
+        
+        System.out.println("Qual valor em reais a ser convertido para dólar");
+        double reais = scanner.nextDouble();
+        double cambio = reais / 5.00;
+        
+        System.out.println("O valor em reais equivale a: $" + cambio);
+        
+        scanner.close();
+        
+    }
+}
+
+import java.util.Scanner;
+
+public class Ex05{
+    public static void main (String [] args){
+        
+        Scanner scanner = new Scanner (System.in);
+        
+        System.out.println("Qual o seu peso? ");
+        double peso = scanner.nextDouble();
+        
+        System.out.println("Qual a sua altura? ");
+        double altura = scanner.nextDouble();
+        
+        double imc = peso / Math.pow(altura, 2);
+        
+        System.out.printf("O seu índice de massa corporal (IMC) é de: %.3f%n", imc);
+        
+        scanner.close();
+        
+    }
+}
+
+// Exercicio 06: 
+import java.util.Scanner;
+
+public class Ex06
+{
+	public static void main(String[] args) {
+		
+		Scanner scanner =  new Scanner (System.in);
+		
+		System.out.println("Qual o valor em segundos a ser transformado? ");
+		double valorTrasnformar = scanner.nextDouble();
+		
+		//fórmula para pegar somente o decimal do valor (valor a Trasnformar % valor de conversão) / valor de conversão
+		double horasDecimal = (valorTrasnformar % 3600) / 3600;
+		double horas = (valorTrasnformar / 3600) - horasDecimal;
+		
+		//pego o decimal dos minutos, pois | valorTrasnformar/60 tem o mesmo decimal que (valorTrasnformar/3600) - o inteiro da divisão |  
+		double minutosDecimal = (valorTrasnformar % 60 ) / 60;
+		double minutos = (horasDecimal * 60) - minutosDecimal;
+		
+		//pega o valor e tira o decimal e arredonda para o inteior mais proximo
+		double segundos = (minutosDecimal * 60) % 60;
+		
+		System.out.println("O valor: " + valorTrasnformar + " equivale a: ");
+		
+		//%s mostra a string na tela, \n coloca o cursor na outra linha, %f coloco o ponto flutuante 
+		System.out.printf("%.0f%s\n", horas, " h" );
+		System.out.printf("%.0f%s\n", minutos, " min");
+		System.out.printf("%.0f%s\n", segundos, " s" );
+		
+	}
+}
+
+
