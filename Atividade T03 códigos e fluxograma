@@ -1,3 +1,4 @@
+//Exercicio 01: Armazenamento e apresentacao 
 import java.util.Scanner;
 
 public class Ex01
@@ -19,6 +20,7 @@ public class Ex01
 		scanner.close();
 	}
 }
+//Exercicio 02: Area de um quadrado 
 import java.util.Scanner;
 
 public class Ex02{
@@ -32,6 +34,8 @@ public class Ex02{
         System.out.println("A área do quadrado: " + Math.pow(lado,2));
     }
 }
+
+//Exercicio 03: Calculo da media 
 import java.util.Scanner;
 
 public class Ex03{
@@ -55,6 +59,7 @@ public class Ex03{
     }
 }
 
+// Exercicio 04: Conversor de moedas
 import java.util.Scanner;
 
 public class Ex04{
@@ -72,7 +77,7 @@ public class Ex04{
         
     }
 }
-
+// Exercicio 05: Calculo do IMC
 import java.util.Scanner;
 
 public class Ex05{
@@ -95,7 +100,7 @@ public class Ex05{
     }
 }
 
-// Exercicio 06: 
+// Exercicio 06: Transformação de base de tempo
 import java.util.Scanner;
 
 public class Ex06
