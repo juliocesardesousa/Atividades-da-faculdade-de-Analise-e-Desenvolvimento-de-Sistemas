@@ -52,7 +52,7 @@ public class Ex03{
 	    double raio = leitor.nextDouble();
 	    
 	    System.out.println("Qual o valor da altura em metros? ");
-	    float altura = leitor.nextFloat();
+	    double altura = leitor.nextDouble();
 	    
 	    double volume = Math.PI * Math.pow(raio, 2) * altura;
 	    
@@ -73,7 +73,7 @@ public class Ex04{
 	    double potencia = leitor.nextDouble();
 	    
 	    System.out.println("Por quantas horas fica ligado? ");
-	    float tempo = leitor.nextFloat();
+	    double tempo = leitor.nextDouble();
 	   
 	    System.out.println("Qual o preço do KWh? ");
 	    double precoConsumoDeEnergia = leitor.nextDouble(); 
