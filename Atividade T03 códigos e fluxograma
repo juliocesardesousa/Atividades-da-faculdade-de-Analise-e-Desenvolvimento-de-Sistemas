@@ -32,6 +32,7 @@ public class Ex02{
         double lado = scanner.nextDouble();
         
         System.out.println("A área do quadrado: " + Math.pow(lado,2));
+		scanner.close();
     }
 }
 
@@ -55,7 +56,7 @@ public class Ex03{
         double media = (notaUm + notaDois + notaTres)/3;
         
         System.out.printf("Sua média é de: %.2f%n", media);
-        
+        scanner.close();
     }
 }
 
@@ -72,7 +73,6 @@ public class Ex04{
         double cambio = reais / 5.00;
         
         System.out.println("O valor em reais equivale a: $" + cambio);
-        
         scanner.close();
         
     }
@@ -94,7 +94,6 @@ public class Ex05{
         double imc = peso / Math.pow(altura, 2);
         
         System.out.printf("O seu índice de massa corporal (IMC) é de: %.3f%n", imc);
-        
         scanner.close();
         
     }
@@ -129,7 +128,7 @@ public class Ex06
 		System.out.printf("%.0f%s\n", horas, " h" );
 		System.out.printf("%.0f%s\n", minutos, " min");
 		System.out.printf("%.0f%s\n", segundos, " s" );
-		
+		scanner.close();
 	}
 }
 
