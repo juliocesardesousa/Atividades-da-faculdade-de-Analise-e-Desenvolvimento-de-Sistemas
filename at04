@@ -1,26 +1,31 @@
-// Exercício 01: Fixação 
+// Exercício 04: Lógica 
 import java.util.Scanner;
 
-public class Ex01{
+public class Ex04{
     public static void main (String [] args){
         
         Scanner scanner =  new Scanner (System.in);
-        
-        System.out.println("Digite um número inteiro");
-        int num = scanner.nextInt();
-        
-        if (num < 0)
-        {
-            System.out.println("Número negativo");
-        }
-        else
-        {
-            System.out.println("Número positivo");
-        }
-        
+            
+         System.out.println("Qual o valor da primeira nota ");
+         int notaUm = scanner.nextInt();
+         
+         System.out.println("Qual o valor da segunda nota");
+         int notaDois = scanner.nextInt();
+         
+         double media = notaUm + notaDois / 2;
+         
+         if (media >= 6.0)
+         {
+             System.out.println("Aprovado");
+         }
+         
+         if (media < 6.0)     
+         {
+            System.out.println("Exame");
+         }   
+                 
     }
-    
-    
+
 }
 
 // Exercício 02: Fixação 
