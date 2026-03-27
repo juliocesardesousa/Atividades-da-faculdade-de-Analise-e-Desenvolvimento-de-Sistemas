@@ -98,7 +98,10 @@ public class Ex04{
          {
              System.out.println("Aprovado");
          }
+         if (media < 6.0)   
+         {
              System.out.println("Exame");
+         }   
                  
     }
 
