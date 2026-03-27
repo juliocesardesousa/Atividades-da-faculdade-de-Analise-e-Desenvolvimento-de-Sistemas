@@ -1,28 +1,22 @@
-// Exercício 04: Lógica 
+// Exercício 01 
 import java.util.Scanner;
 
-public class Ex04{
+public class Ex01{
     public static void main (String [] args){
-        
+
         Scanner scanner =  new Scanner (System.in);
-            
-         System.out.println("Qual o valor da primeira nota ");
-         int notaUm = scanner.nextInt();
-         
-         System.out.println("Qual o valor da segunda nota");
-         int notaDois = scanner.nextInt();
-         
-         double media = notaUm + notaDois / 2;
-         
-         if (media >= 6.0)
-         {
-             System.out.println("Aprovado");
-         }
-         
-         if (media < 6.0)     
-         {
-            System.out.println("Exame");
-         }   
+        
+        System.out.println("Digite um número inteiro");
+        int num = scanner.nextInt();
+        
+        if (num < 0)
+        {
+            System.out.println("Número negativo");
+        }
+        else
+        {
+            System.out.println("Número positivo");
+        }  
                  
     }
 
@@ -110,7 +104,7 @@ public class Ex04{
 // Exercício 05: lógica
 import java.util.Scanner;
 
-public class Ex{
+public class Ex05{
     public static void main (String [] args){
         
         Scanner scanner =  new Scanner (System.in);
@@ -131,7 +125,7 @@ public class Ex{
 // Exercício 06: Desafio
 import java.util.Scanner;
 
-public class Ex{
+public class Ex06{
     public static void main (String [] args){
         
         Scanner scanner =  new Scanner (System.in);
@@ -164,7 +158,7 @@ public class Ex{
 //Exercício 07: desafio
 import java.util.Scanner;
 
-public class Ex{
+public class Ex07{
     public static void main (String [] args){
         
         Scanner scanner =  new Scanner (System.in);
@@ -191,7 +185,7 @@ public class Ex{
 // Exercício 08: desafio
 import java.util.Scanner;
 
-public class Mainn{
+public class Ex08{
     public static void main (String [] args){
         
         Scanner scanner = new Scanner (System.in);
