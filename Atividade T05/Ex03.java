@@ -18,6 +18,5 @@ public class Ex03{
             
             default: System.out.println(letra + " é uma consoante");
         }
-        System.out.println("Digite uma letra válida");
     }
 }
