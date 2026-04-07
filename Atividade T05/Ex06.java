@@ -8,16 +8,18 @@ public class Ex06{
         System.out.println("Digite sua idade");
         int idade = scanner.nextInt();
         
-        if(idade <= 10 && idade > 5)
-        {
+        if (idade >= 5 && idade <= 10) {
             System.out.println("Classificação infantil");
-        }
-        else if (idade > 10 && idade < 17)
-        {
+        } 
+        else if (idade >= 11 && idade <= 17) {
             System.out.println("Classificação juvenil");
-        }
-        else 
+        } 
+        else if (idade >= 18) {
             System.out.println("Classificação sênior");
+        } 
+        else {
+            System.out.println("Idade fora da faixa de classificação (muito jovem).");
+        }
         
     }
 }
