@@ -6,7 +6,7 @@ public class Ex04{
         Scanner scanner = new Scanner (System.in);
         
         System.out.println("Qual o calor do produto ?");
-        double preco = scanner.nextInt();
+        double preco = scanner.nextDouble();
         
         if (preco <= 50)
         {
