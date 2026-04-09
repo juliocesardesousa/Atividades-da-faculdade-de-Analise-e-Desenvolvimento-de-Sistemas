@@ -10,16 +10,22 @@ public class Ex11{
 
     System.out.println("Digite um número inteiro");
     int num = sc.nextInt();
-    int i = 1;
+    int i = 2;
+    int somaDivisor = 0;
 
     while (i < num)
     {
         if (num % i == 0)
         {
-            System.out.println("É primo");
-            i = num; 
+            somaDivisor++; 
         } 
         i++;
     }
+
+    if (somaDivisor == 0 && num > 1){
+        System.out.println("É primo");
+    } 
+    else
+        System.out.println("Não é primo");
  }
 }
