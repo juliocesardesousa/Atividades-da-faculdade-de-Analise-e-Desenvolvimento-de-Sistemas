@@ -14,7 +14,6 @@ public class Ex01{
             if (num * i % 3 == 0)
             {
                 System.out.println(num + " X " + i + " = " +  (num * i));
-                i++;
             }
             i++; // contador 
         }
