@@ -9,7 +9,7 @@ public class Ex03 {
     public static void main (String [] args){
         Scanner scanner = new Scanner (System.in);
 
-        int i = 0;
+        int i = 1;
         double somador = 0; // somador para armazenar as temperaturas somadas.
         double temperatura = 0;
 
