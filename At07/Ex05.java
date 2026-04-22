@@ -10,7 +10,7 @@ public class Ex05{
     int contadorFora = 0;
     double num = 0;
 
-    for(int i = 1; i <= 3; i++){
+    for(int i = 1; i <= 10; i++){
         
         System.out.printf("Digite o valor  numero %d: \n ", i);
         num = sc.nextDouble(); 
