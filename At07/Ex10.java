@@ -10,7 +10,8 @@ public class Ex10{
 
         for(int i = 1; i <= 5; i++){
             for(int j = 1; j <= 5; j++){
-                System.out.print((Math.pow(i, 2) + Math.pow(j, 2)));
+                double estresse = (Math.pow(i, 2) + Math.pow(j, 2);
+                System.out.printf("%.1f ", estresse);
             }
             System.out.println();
         }
